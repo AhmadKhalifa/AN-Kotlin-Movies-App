@@ -1,0 +1,33 @@
+<resources>
+
+    <dimen name="spc1">2dp</dimen>
+    <dimen name="spc2">3dp</dimen>
+    <dimen name="spc3">4dp</dimen>
+    <dimen name="spc4">6dp</dimen>
+    <dimen name="spc5">8dp</dimen>
+    <dimen name="spc6">12dp</dimen>
+    <dimen name="spc7">16dp</dimen>
+    <dimen name="spc8">24dp</dimen>
+    <dimen name="spc9">32dp</dimen>
+    <dimen name="spc10">40dp</dimen>
+    <dimen name="spc11">48dp</dimen>
+    <dimen name="spc12">64dp</dimen>
+
+    <dimen name="txt1">9sp</dimen>
+    <dimen name="txt2">10sp</dimen>
+    <dimen name="txt3">12sp</dimen>
+    <dimen name="txt4">15sp</dimen>
+    <dimen name="txt5">16sp</dimen>
+    <dimen name="txt6">18sp</dimen>
+    <dimen name="txt7">19sp</dimen>
+    <dimen name="txt8">20sp</dimen>
+
+    <dimen name="tiny_txt1">6sp</dimen>
+    <dimen name="tiny_txt2">7sp</dimen>
+
+    <dimen name="trailer_image_height">120dp</dimen>
+    <dimen name="trailer_image_width">180dp</dimen>
+    <dimen name="round_corner_radius">2dp</dimen>
+    <dimen name="details_backdrop_image_width">160dp</dimen>
+
+</resources>

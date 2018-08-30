@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Movies Up</string>
+
+    <string name="tmdb_api_key">be1f8a35b0e7e4b3be7c1ce2b1e8cab8</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="non_stable_connection">Error connecting to the internet</string>
+    <string name="error_loading_movies">Error loading movies</string>
+    <string name="error_loading_favorite_movies">Error loading favorite movies</string>
+    <string name="error_loading_movie_trailers">Error loading trailers</string>
+    <string name="error_loading_movie_reviews">Error loading reviews</string>
+    <string name="error_adding_movie_to_favorites">Error adding movie to favorites</string>
+    <string name="error_removing_movie_from_favorites">Error removing movie from favorites</string>
+    <string name="general_error">Something went wrong</string>
+    <string name="tab_to_try_again">Please tab to try again</string>
+    <string name="added_to_favorites">Added to favorites</string>
+    <string name="removed_from_favorites">Removed from favorites</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="remove_from_favorites">Remove from favorites</string>
+    <string name="error_getting_movie_favorite_state">Error getting movie favorite state</string>
+    <string name="details_date">Date released:</string>
+    <string name="details_rate">Rate:</string>
+    <string name="details_trailers">Trailers</string>
+    <string name="details_reviews">Reviews</string>
+    <string name="details_no_trailers_available">No trailers available</string>
+    <string name="details_no_reviews_available">No reviews available</string>
+    <string name="author">Author:</string>
+    <string name="trailer_type_youtube">YOUTUBE</string>
+    <string name="refreshing_list">Refreshing movies list</string>
+    <string name="most_popular">Most popular</string>
+    <string name="top_rated">Top rated</string>
+    <string name="favorites">Favorites</string>
+    <string name="nothing_to_show">No movies</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

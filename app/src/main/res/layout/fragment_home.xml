@@ -1,0 +1,61 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.HomeFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/moviesRecyclerView"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/spc1"
+        android:layout_marginTop="@dimen/spc1"/>
+
+    <ProgressBar
+        android:visibility="visible"
+        android:layout_gravity="center"
+        android:id="@+id/loadingMoviesProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/errorLayout"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/errorImageView"
+            android:layout_margin="@dimen/spc6"
+            android:src="@drawable/ic_sentiment_very_dissatisfied_white_48px"
+            android:tint="@color/dark_grey"
+            android:layout_width="@dimen/spc10"
+            android:layout_height="@dimen/spc10"/>
+
+        <TextView
+            android:textColor="@color/dark_grey"
+            android:id="@+id/errorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            tools:text="@string/general_error"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/tryAgainTextView"
+            android:textColor="@color/dark_grey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/tab_to_try_again"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</FrameLayout>
